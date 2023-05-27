@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/modification.css" />
+    <!-- AOS 라이브러리 불러오기-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="icon" href="img/favicon.png" />
+    <title>신입 웹 퍼블리셔 포트폴리오 | 백현주</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 상단 -->
+        <header class="header">
+            <div class="inner">
+                <div class="logo-bar">
+                    <a href="./index.html" class="logo-text">PORTFOLIO</a>
+                    <a href="./index.html" class="logo"></a>
+                </div>
+                <nav class="nav">
+                    <ul class="gnb">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- //상단 -->
+
+        <!-- 홈 -->
+        <section class="home" id="home">
+            <div class="home-bg-img">
+                <div class="inner">
+                    <div class="home-wrap">
+                        <div class="home-left" data-aos="fade-right" data-aos-anchor="#example-anchor"
+                            data-aos-offset="700" data-aos-duration="900" data-aos-easing="ease-in-sine"
+                            data-aos-delay="800">
+                            <div class="home-img">
+                                <div class="home-img-line-top"></div>
+                                <div class="home-img-line-bottom"></div>
+                            </div>
+                        </div>
+                        <div class="home-right" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                            data-aos-offset="700" data-aos-duration="900" data-aos-easing="ease-in-sine">
+                            <div class="home-text">
+                                <div class="home-text-introduce">
+                                    <div class="txt-hello">안녕하세요!</div>
+                                    <div>
+                                        <span class="txt-color">[<span class="typing-text"></span>] 웹 퍼블리셔</span><br />
+                                        <span class="my-name">백현주</span>입니다.
+                                    </div>
+                                </div>
+                                <p class="home-text-introduce-content">
+                                    <span>
+                                        평일 2시간, 주말 12시간의 복습을 통하여 퍼블리셔의 길로
+                                        나아가기위해 노력하고 있습니다.</span>
+                                    <span class="underline">
+                                        정체되어있지 않는 웹 퍼블리셔가 되기 위해
+                                        약속하겠습니다!</span>
+                                </p>
+                                <p class="home-text-introduce-promise">
+                                    <span class="underline"><br />첫째</span>, 항상
+                                    <b>사용자의 입장에서 생각</b>하며, <b>편리한 UI/UX</b>가
+                                    무엇일지 고민하겠습니다.<br />
+                                    <span class="underline">둘째</span>, 더 나은 코드를 작성하기
+                                    위해 <b>자바스크립트 공부에 계속 매진하여 </b>끊임없이
+                                    발전하겠습니다.<br />
+                                    <span class="underline">셋째</span>, 서로의
+                                    <b>의견을 이해하고 존중</b>하며 <b>'함께'</b> 좋은 결과물을
+                                    만들어내도록 하겠습니다. <br /><br />
+                                </p>
+                                <!-- <a href="assets/견고한 UI와 사용자의 마음을 움직이는 UX를 만드는 신입 웹 퍼블리셔 백현주입니다!.pdf" download="" class="resume">이력서 Download</a> -->
+                                <a href="https://github.com/BaekHyunju" target="_blank" class="resume">GitHub 바로가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //홈 -->
+
+        <!-- 프로필 -->
+        <section class="profile" id="profile">
+            <div class="inner-basic">
+                <div class="profile-top-basic">
+                    <div class="title-box-basic">
+                        <div class="section-title-basic">Profile</div>
+                    </div>
+                    <div class="content-box">
+                        <div class="profile-box">
+                            <div class="profile-left-content" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000">
+                                <div class="profile-img"></div>
+                                <div class="profile-txt">
+                                    <div>
+                                        <p>Name</p>
+                                        <span>백현주</span>
+                                    </div>
+                                    <div>
+                                        <p>Birthday</p>
+                                        <span>1996.05.01</span>
+                                    </div>
+                                    <div>
+                                        <p>Address</p>
+                                        <span>대구시 수성구</span>
+                                    </div>
+                                    <div>
+                                        <p>Education</p>
+                                        <span>영진전문대학 경영계열</span>
+                                    </div>
+                                    <div>
+                                        <p>E-mail</p>
+                                        <span>selly1996@naver.com</span>
+                                    </div>
+                                    <div>
+                                        <p>Kakao ID</p>
+                                        <span>sd142131</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activity" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000">
+                                <div class="external">
+                                    <div class="activity-title">대외활동</div>
+                                    <div class="external-txt">
+                                        <p>- 그린컴퓨터아트학원 (2022.08.31 ~ 2023.02.23)</p>
+                                        <p>
+                                            기업요구를 반영한 디지털 비즈니스 웹앱(UX) 디자인 &
+                                            개발자 양성 과정 수료
+                                        </p>
+                                    </div>
+                                    <div class="external-txt">
+                                        <p>- 그린온라인캠프 (2023.02.20 ~ 2023.03.17)</p>
+                                        <p>
+                                            K-디지털 기초역량훈련 '실무능력까지 길러주는 인터랙티브
+                                            웹 디자인 기초 입문'
+                                        </p>
+                                    </div>
+                                    <div class="external-txt">
+                                        <p>- 그린온라인캠프 (2023.02.20 ~ 2023.03.17)</p>
+                                        <p>
+                                            K-디지털 기초역량훈련 '디지털역량 제고를 위한 다이나믹
+                                            클라이언트 사이드 스크립트'
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="certificate">
+                                    <div class="activity-title">자격증</div>
+                                    <div class="certificate-txt">
+                                        <p>- GTQ 포토샵 1급 (2022.10)</p>
+                                        <p>- GTQI 일러스트 2급 (2022.10)</p>
+                                        <p>- 운전면허증 2종 보통 (2022.02)</p>
+                                    </div>
+                                    <div class="certificate-txt">
+                                        <p>- 전산세무2급 (2017.11)</p>
+                                        <p>- 세무회계3급 (2016.06)</p>
+                                        <p>- 회계정보처리(FAT)1급 (2016.05)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //프로필 -->
+
+        <!-- 스킬 -->
+        <section class="skill" id="skill">
+            <div class="inner-basic">
+                <div class="skill-top-basic">
+                    <div class="title-box-basic">
+                        <div class="section-title-basic">Skill</div>
+                    </div>
+                    <!--
+                        <div class="content-box">
+                        <div class="skill-container">
+                            <div class="skill-box box1">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "90"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">HTML</div>
+                            </div>
+                            <div class="skill-box box2">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "90"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">CSS</div>
+                            </div>
+                            <div class="skill-box box3">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "60"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">JS</div>
+                            </div>
+                            <div class="skill-box box4">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "90"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">Photoshop</div>
+                            </div>
+                            <div class="skill-box box5">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "80"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">Illustrator</div>
+                            </div>
+                            <div class="skill-box box6">
+                                <div class="percent">
+                                    <svg>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                        <circle cx="90" cy="90" r="90"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h3>
+                                            "70"
+                                            <span>%</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="text">Figma</div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <div class="content-box">
+                        <div class="skill-container">
+                            <div class="skill-box box1" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="100">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    80
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                웹 표준과 웹 접근성을 고려하여 체계적인 퍼블리싱
+                                                작업을 할 수 있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">HTML</div>
+                                </div>
+                            </div>
+                            <div class="skill-box box2" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="200">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    80
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                CSS3의 구조와 속성을 이해하며, 자유롭게 배치하고
+                                                디자인 할 수 있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">CSS</div>
+                                </div>
+                            </div>
+                            <div class="skill-box box3" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="300">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    60
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                기초적인 자바스크립트 활용이 가능하며, 구글링하여 작업
+                                                할 수 있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">JS</div>
+                                </div>
+                            </div>
+                            <div class="skill-box box4" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="400">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    90
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                웹페이지, 상세페이지 등 디자인 작업을 능숙하게 할 수
+                                                있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">Photoshop</div>
+                                </div>
+                            </div>
+                            <div class="skill-box box5" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="500">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    80
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                로고디자인, 배너디자인 등 기본적인 툴을 사용하여 작업
+                                                할 수 있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">Illustrator</div>
+                                </div>
+                            </div>
+                            <div class="skill-box box6" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                <div class="flip">
+                                    <div class="card">
+                                        <div class="percent front">
+                                            <svg>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                                <circle cx="90" cy="90" r="90"></circle>
+                                            </svg>
+                                            <div class="number">
+                                                <h3>
+                                                    80
+                                                    <span>%</span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div>
+                                                기본적인 툴 사용이 가능하고, 와이어프레임과
+                                                프로토타입을 만들 수 있습니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">Figma</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //스킬 -->
+
+        <!-- 포트폴리오 -->
+        
+        <section class="portfolio" id="portfolio">
+            <div class="inner-basic">
+                <div class="portfolio-top">
+                    <div class="title-box">
+                        <div class="section-title port">Portfolio</div>
+                        <div class="section-subtitle">
+                            <p>01</p>
+                            Responsive Web Page
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="tab">
+                        <ul class="tabnav scrollBar">
+                          <li><a href="#tab01">INDIVIDUAL PROJECT</a></li>
+                          <li><a href="#tab02">TEAM PROJECT</a></li>
+                          <li><a href="#tab03">ETC</a></li>
+                        </ul>
+
+                        <div class="tabcontent">
+                            <!-- 1.개인프로젝트 -->
+                            <div id="tab01">
+                                <!-- 해양수산부 -->
+                                <div class="portfolio-content">
+                                    <a href="mof-planning.html" target="_self" class="portfolio-img mof">
+                                    </a>
+                                    <div class="portfolio-text high">
+                                        <div class="portfolio-content-text-top long">
+                                            <div class="portfolio-content-text-title">해양수산부</div>
+                                            <!-- <div class="portfolio-content-text-subtitle">
+                                                해양수산부 사이트 리디자인
+                                            </div> -->
+                                        </div>
+                                        <div class="portfolio-content-text-bottom">
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구분
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    개인프로젝트 ( 참여도 : 100% )
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구성
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    메인페이지, 헤더, 푸터
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    제작 기간
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    약 3일 (2023.03.03~2023.03.05)
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    사용툴
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    포토샵, 일러스트레이터, 피그마, 비주얼 스튜디오 코드
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //해양수산부 -->
+
+
+                            </div>
+                            <!-- 2.팀프로젝트 -->
+                            <div id="tab02">
+                                <!-- 유니버셜스튜디오 -->
+                                <div class="portfolio-content">
+                                    <a href="usk-planning.html" target="_self" class="portfolio-img usk"></a>
+                                    <div class="portfolio-text high">
+                                        <div class="portfolio-content-text-top long">
+                                            <div class="portfolio-content-text-title">
+                                                Universal Studio
+                                            </div>
+                                            <!-- <div class="portfolio-content-text-subtitle">
+                                                한국판 유니버셜 스튜디오 기획, 리디자인
+                                            </div> -->
+                                        </div>
+                                        <div class="portfolio-content-text-bottom">
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구분
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    팀프로젝트 ( 참여도 : 40% )
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구성
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    메인페이지, 헤더, 푸터
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    제작 기간
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    약 5주 (2023.01.06~2023.02.09)
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    사용툴
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    포토샵, 일러스트레이터, 피그마, 비주얼 스튜디오 코드
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //유니버셜스튜디오 -->
+                                <!-- 멜론 -->
+                                <div class="portfolio-content">
+                                    <a href="melon-planning.html" target="_self" class="portfolio-img melon"></a>
+                                    <div class="portfolio-text">
+                                        <div class="portfolio-content-text-top">
+                                            <div class="portfolio-content-text-title">Melon</div>
+                                            <!-- <div class="portfolio-content-text-subtitle">
+                                                멜론 사이트 리디자인
+                                            </div> -->
+                                        </div>
+                                        <div class="portfolio-content-text-bottom">
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구분
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    팀프로젝트 ( 참여도 : 35% )
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구성
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    이용권페이지, 앨범 판매 상세페이지, 로그인페이지, 푸터
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    제작 기간
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    약 4주 (2022.11.14~2022.12.13)
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    사용툴
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    포토샵, 일러스트레이터, 비주얼 스튜디오 코드
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //멜론 -->
+
+                                
+
+
+                            </div>
+
+                            <!-- 3.기타 -->
+                            <div id="tab03">
+                                <!-- 포트폴리오 -->
+                                <div class="portfolio-content">
+                                    <div class="portfolio-img pofol"></div>
+                                    <div class="portfolio-text">
+                                        <div class="portfolio-content-text-top">
+                                            <div class="portfolio-content-text-title">
+                                                포트폴리오 사이트
+                                            </div>
+                                            <div class="portfolio-content-text-subtitle"></div>
+                                        </div>
+                                        <div class="portfolio-content-text-bottom">
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구분
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    개인프로젝트 ( 참여도 : 100% )
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구성
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    메인페이지, 헤더, 푸터
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    제작 기간
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    약 1주 (2023.02.19~2023.02.26)
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    사용툴
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    포토샵, 일러스트레이터, 비주얼 스튜디오 코드
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //포트폴리오 -->
+                                <!-- 도시락통 -->
+                                <div class="portfolio-content">
+                                    <a href="https://baekhyunju.github.io/CloneCoding_1_dosiraktong/index.html" target="_blank"
+                                        class="portfolio-img dosiraktong"></a>
+                                    <div class="portfolio-text">
+                                        <div class="portfolio-content-text-top">
+                                            <div class="portfolio-content-text-title">도시락통</div>
+                                            <div class="portfolio-content-text-subtitle">클론코딩</div>
+                                        </div>
+                                        <div class="portfolio-content-text-bottom">
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구분
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    개인프로젝트 ( 참여도 : 100% )
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    프로젝트 구성
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    메인페이지, 헤더, 푸터
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    제작 기간
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    약 1주 (2023.02.13~2023.02.17)
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-content-text-bottom-section">
+                                                <div class="portfolio-content-text-bottom-title">
+                                                    사용툴
+                                                </div>
+                                                <div class="portfolio-content-text-bottom-content">
+                                                    비주얼 스튜디오 코드
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //도시락통 -->
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- //포트폴리오 -->
+
+        <!-- 하단 -->
+        <footer class="footer">
+            <div class="inner">
+                <div class="footer-box">
+                    <div class="footer-top">
+                        <span>본 페이지는 상업적 목적이 아닌</span><br />
+                        <span>개인 포트폴리오용으로 제작되었습니다.</span>
+                    </div>
+                    <div class="footer-bottom">
+                        ⓒ 2023 BaekHyunJu. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //하단 -->
+    </div>
+
+    <!-- AOS 라이브러리 불러오기-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            ovserver: true,
+            observeParents: true,
+            loop: true,
+            loopAdditionalSlides: 1,
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                },
+                500: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                },
+                1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 15,
+                },
+            },
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

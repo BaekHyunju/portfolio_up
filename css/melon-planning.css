@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url("Pretendard-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url("Pretendard-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url("Pretendard-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url("Pretendard-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url("Pretendard-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    font-family: "Pretendard", 'NanumSquareNeo-Variable';
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: keep-all;
+    background: #f0f7f6;
+    height: 100%;
+}
+
+/* 공통요소 */
+.inner {
+    position: relative;
+    display: block;
+    /* 반응형이므로 max 권장 */
+    max-width: 1420px;
+    width: 100%;
+    /* block 요소 가운데 정렬 */
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+    .inner {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .inner {
+        max-width: 750px;
+    }
+}
+
+/* 레이아웃 */
+.wrap {
+    position: relative;
+    display: block;
+}
+
+/* 상단 */
+.top {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.top-content {
+    width: 500px;
+    height: 630px;
+    text-align: center;
+    margin: 0px auto 0px;
+    position: relative;
+    top: 110px;
+    background: none;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+    background: url(../img/melon-logo.png)no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 20px;
+    color: #2f2f2f;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+.into-btn {
+    margin: 50px 0;
+}
+
+.into-btn button {
+    /* background: #d2e1f0;
+    box-shadow: 0 10px 0 #bbc8d6; */
+    background: #d2e4d5;
+    box-shadow: 0 10px 0 #c3d4c6;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    margin: 50px 13px;
+    border-radius: 15px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    font-family: "Pretendard";
+    font-size: 15px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.into-btn button:hover {
+    top: 2px;
+    box-shadow: 0 8px 0 #c3d4c6;
+}
+
+.into-btn button:active {
+    top: 10px;
+    box-shadow: none;
+}
+
+/* 계획서 */
+.planning {
+    position: relative;
+    display: block;
+}
+
+.planning-melon {
+    width: 53.3333vw;
+    /* 1024 */
+    min-width: 1000px;
+    height: 506.7188vw;
+    background: url(../img/melon-planning.png)no-repeat top;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+    .planning-melon {
+        width: 87.8906vw;
+        /* 900 */
+        min-width: 700px;
+        height: 835.0586vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-content {
+        width: 330px;
+        height: 630px;
+        /* background: rgb(150, 180, 180); */
+        text-align: center;
+        margin: 0px auto 0px;
+        position: relative;
+        top: 110px;
+    }
+
+    .planning-melon {
+        width: 91.1458vw;
+        /* 700 */
+        min-width: 300px;
+        height: 1266.7969vw;
+        background: url(../img/melon-planning-app.png)no-repeat top;
+        background-size: contain;
+        margin: 0 auto;
+    }
+}
