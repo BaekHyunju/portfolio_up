@@ -454,10 +454,6 @@
                         </div>
                     </div>
 
-
-
-
-
                     <div class="tab">
                         <ul class="tabnav scrollBar">
                           <li><a href="#tab01">INDIVIDUAL PROJECT</a></li>
@@ -472,8 +468,8 @@
                                 <div class="portfolio-content">
                                     <a href="mof-planning.html" target="_self" class="portfolio-img mof">
                                     </a>
-                                    <div class="portfolio-text high">
-                                        <div class="portfolio-content-text-top long">
+                                    <div class="portfolio-text">
+                                        <div class="portfolio-content-text-top">
                                             <div class="portfolio-content-text-title">해양수산부</div>
                                             <!-- <div class="portfolio-content-text-subtitle">
                                                 해양수산부 사이트 리디자인
@@ -524,8 +520,8 @@
                                 <!-- 유니버셜스튜디오 -->
                                 <div class="portfolio-content">
                                     <a href="usk-planning.html" target="_self" class="portfolio-img usk"></a>
-                                    <div class="portfolio-text high">
-                                        <div class="portfolio-content-text-top long">
+                                    <div class="portfolio-text">
+                                        <div class="portfolio-content-text-top">
                                             <div class="portfolio-content-text-title">
                                                 Universal Studio
                                             </div>
@@ -752,7 +748,12 @@
     <!-- AOS 라이브러리 불러오기-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+        AOS.init({
+
+            disable: false, // 'phone', 'tablet', 'mobile'
+
+        });
+
     </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
