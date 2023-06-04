@@ -1603,14 +1603,15 @@ svg {
 }
 
 .portfolio-content-text-bottom {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  margin-top: 10px;
+  gap: 15px; */
+  margin-top: 30px;
   color: #424242;
 }
 
 .portfolio-content-text-bottom-section {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .portfolio-content-text-bottom-title {
@@ -1929,7 +1930,7 @@ svg {
   }
   .portfolio-content {
     width: 300px;
-    grid-template-rows: 62.0000vw 350px;
+    grid-template-rows: 58.0000vw 350px;
     grid-template-columns: none;
     justify-content: center;
     justify-items: center;
@@ -1947,7 +1948,12 @@ svg {
   }
   .portfolio-content-text-top,
   .portfolio-content-text-bottom {
-    width: 98%;
+    width: 100%;
+    gap:0;
+  }
+  .portfolio-content-text-bottom{
+    margin-top: 20px;
+    grid-template-rows:none;
   }
   .portfolio-content-text-title {
     margin-right: 0;
@@ -1968,6 +1974,13 @@ svg {
   }
   .portfolio-content-text-subtitle{
     line-height: 1.9;
+  }
+
+  .portfolio-content-text-bottom-title {
+    margin-bottom: 5px;
+  }
+  .portfolio-content-text-bottom-section{
+    margin-bottom: 10px;
   }
 }
 
