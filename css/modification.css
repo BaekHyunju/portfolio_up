@@ -593,7 +593,7 @@ body {
     width: 97.6563vw;
     height: 53.7109vw;
     min-height: 440px;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 
   .home-img {
@@ -684,7 +684,9 @@ body {
     min-width: 380px;
     justify-content: flex-start;
   }
-
+  .home-right {
+    margin-right: 0;
+  }
   /* .home-right {
     width: 89.1927vw;
     min-width: 400px;
@@ -731,7 +733,7 @@ body {
 @media screen and (max-width: 575px) {
   .home-text-introduce,
   .txt-hello {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .home-wrap {
@@ -755,7 +757,7 @@ body {
     width: 89.1927vw;
     min-width: 320px;
     height: 700px; */
-    padding-top: 30px;
+    padding-top: 0px;
   }
 
   .home-img {
